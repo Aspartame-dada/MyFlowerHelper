@@ -1,6 +1,8 @@
 package com.tensorflow.lite.examples.classification.DataBase;
 
-public class UserInfo {
+import org.litepal.crud.LitePalSupport;
+
+public class UserInfo extends LitePalSupport {
     private String user_name;
     private  String user_password;
 
